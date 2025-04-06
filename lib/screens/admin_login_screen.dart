@@ -212,11 +212,11 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
                       // 4. Adjust color based on Figma
-                      borderSide: const BorderSide(color: Colors.grey),
+                      borderSide: const BorderSide(color: Colors.red),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
-                      borderSide: const BorderSide(color: Colors.grey),
+                      borderSide: const BorderSide(color: Colors.red),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
@@ -247,11 +247,11 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
                       // 4. Adjust color based on Figma
-                      borderSide: const BorderSide(color: Colors.grey),
+                      borderSide: const BorderSide(color: Colors.red),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
-                      borderSide: const BorderSide(color: Colors.grey),
+                      borderSide: const BorderSide(color: Colors.red),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),

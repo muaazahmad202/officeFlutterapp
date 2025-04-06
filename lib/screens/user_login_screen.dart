@@ -191,6 +191,11 @@ class _UserLoginScreenState extends State<UserLoginScreen> {
                 controller: _emailController,
                 decoration: InputDecoration(
                   hintText: "Enter Email",
+                  hintStyle: const TextStyle(fontSize: 14),
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 15, // Adjust according to Figma
+                    horizontal: 10,
+                  ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
                     borderSide: const BorderSide(color: Colors.red),
@@ -210,6 +215,11 @@ class _UserLoginScreenState extends State<UserLoginScreen> {
                 obscureText: true,
                 decoration: InputDecoration(
                   hintText: "Enter Password",
+                  hintStyle: const TextStyle(fontSize: 14),
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 15, // Adjust according to Figma
+                    horizontal: 10,
+                  ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
                     borderSide: const BorderSide(color: Colors.red),

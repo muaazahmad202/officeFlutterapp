@@ -118,16 +118,21 @@ class _UserSignupScreenState extends State<UserSignupScreen> {
         obscureText: isPassword,
         decoration: InputDecoration(
           hintText: hintText,
+          hintStyle: const TextStyle(fontSize: 14),
+          contentPadding: const EdgeInsets.symmetric(
+            vertical: 15, // Adjust according to Figma
+            horizontal: 10,
+          ),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(5),
-            borderSide: const BorderSide(color: Colors.black),
+            borderSide: const BorderSide(color: Colors.red),
           ),
           enabledBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.black),
+            borderSide: const BorderSide(color: Colors.red),
             borderRadius: BorderRadius.circular(5),
           ),
           focusedBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.black, width: 2),
+            borderSide: const BorderSide(color: Colors.red, width: 2),
             borderRadius: BorderRadius.circular(5),
           ),
         ),

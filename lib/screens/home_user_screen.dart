@@ -169,16 +169,15 @@ class _JewelryHomePageState extends State<JewelryHomePage> {
                           MaterialPageRoute(builder: (context) => AdminLoginScreen()),
                         );
                       },
-                      child: const Text(
-                        "Admin",
-                        style: TextStyle(
-                          color: Colors.red,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      child: Icon(
+                        Icons.admin_panel_settings_sharp,
+                        color: Colors.red,
+                        size: 24, // Adjust size as needed.
                       ),
                     ),
                   ),
                 ),
+
                 // Right icon (heart/favorite) pinned at top-right.
                 Positioned(
                   top: 8,
